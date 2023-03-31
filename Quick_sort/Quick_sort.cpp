@@ -41,7 +41,7 @@ void q_sort(int low, int high)
 {
 	int pivot, i, j;
 	if (low > high) // langkah 1
-		return;
+		return; 
 
 	//partition the list into two parts
 	//one containing elements less that or equal to pivot  
